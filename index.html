@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src= "app.js"></script>
+    <title>Document</title>
+</head>
+<body ng-controller="Controlador">
+    <h1>Olá, {{cont}}</h1>
+    <input type="text" ng-model="cont" placeholder="Digite aqui... ">
+    <br><br>
+    <button ng-click="cont=cont+1;">ADD +1</button>
+    <button ng-click="cont=cont-1;">DEC -1</button>
+</body>
+</html>
